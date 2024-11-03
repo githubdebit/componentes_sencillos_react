@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-cuerpo {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+  color: white;
+}
+
+
+.App-cuerpo input,
+.App-cuerpo button {
+  font-size: 40px;
+}
+
+.listaSinPuntos {
+  list-style: none;
+}
+
+.listaSinPuntos li {
+  display: flex;          /* Usa flexbox para alinear los elementos en la misma línea */
+  align-items: center;    /* Alinea verticalmente al centro */
+  
+}
+.checkboxGrande {
+  transform: scale(3);    /* Incrementar tamaño de los checkbox */
+  margin-right: 50px; 
+  margin-top: 10px;       /* No sé por qué no me quedan bien alineados tenxto y checkbox, lo corrijo así */ 
+}
+
+.Izda {
+  display: flex;     
+  align-items: left; 
+
+}
